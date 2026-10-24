@@ -51,7 +51,7 @@ sentiment-radar NVDA
 --- RADAR SYNTHESIS REPORT ---
 Target Symbol:        NVDA
 Consensus Verdict:    [BULLISH / POSITIVE]
-Net Sentiment Index:  +0.35 (scale -1.0 to +1.0)
+Net Sentiment Index:  +0.20 (scale -1.0 to +1.0)
 Viral Reach / Likes:  3,315 engagements
 
 Distribution Breakdown:
@@ -60,13 +60,16 @@ Distribution Breakdown:
   = Neutral: 0.0%
 
 Dominant Bullish Keywords:
-  breakout, call, earnings beat, growth, long, profit, solid
-
+  accumulate, breakout, call, earnings beat, growth, long, profit, solid
 Dominant Bearish Keywords:
-  drop, dump, overvalued, puts, sell
+  downside, dump, overvalued, puts, sell
 ====================================================================
 ```
 
 ## License
 
 MIT
+
+## Scope / Status
+
+This repository is a **working demo on deterministic sample data** (runs offline, covered by automated tests). Uses a mock social feed and a keyword lexicon. Live Twitter/X or Reddit connectors are not implemented yet. Entries in `.env.example` are placeholders for those future connectors.
